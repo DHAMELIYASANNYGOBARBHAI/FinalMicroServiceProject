@@ -1,0 +1,5 @@
+rootProject.name = 'FinalMicroServiceProject'
+include 'Order-Service'
+include 'Product-Service'
+include 'Inventory-Service'
+
