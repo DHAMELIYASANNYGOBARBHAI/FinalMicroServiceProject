@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/Inventory-Service" />
             <option value="$PROJECT_DIR$/Order-Service" />
             <option value="$PROJECT_DIR$/Product-Service" />
+            <option value="$PROJECT_DIR$/api-gatway" />
             <option value="$PROJECT_DIR$/dicovery-server" />
           </set>
         </option>

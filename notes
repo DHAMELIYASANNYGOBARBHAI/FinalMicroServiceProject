@@ -1,0 +1,10 @@
+order-service
+/api/order
+
+
+ product-service
+ "/api/product"
+
+
+ "/api/inventory"
+ inventory-service
