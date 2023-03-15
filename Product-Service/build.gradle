@@ -8,10 +8,24 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
 repositories {
     mavenCentral()
 }
 
+repositories {
+    mavenCentral()
+    maven { url 'https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates' }
+}
+
+ext {
+    set('springCloudVersion', "2022.0.1")
+}
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
@@ -28,8 +42,14 @@ dependencies {
     testImplementation "org.testcontainers:mongodb:1.17.6"
     testImplementation "org.testcontainers:junit-jupiter:1.17.6"
 
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 }
 
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
 
 
 test {
