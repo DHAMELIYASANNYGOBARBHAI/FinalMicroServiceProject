@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Product-Service/FinalMicroServiceProject.Product-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Product-Service/FinalMicroServiceProject.Product-Service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gatway/FinalMicroServiceProject.api-gatway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gatway/FinalMicroServiceProject.api-gatway.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dicovery-server/FinalMicroServiceProject.dicovery-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dicovery-server/FinalMicroServiceProject.dicovery-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification-service/FinalMicroServiceProject.notification-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification-service/FinalMicroServiceProject.notification-service.main.iml" />
     </modules>
   </component>
 </project>

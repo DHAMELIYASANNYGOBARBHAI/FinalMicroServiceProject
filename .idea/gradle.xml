@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/Product-Service" />
             <option value="$PROJECT_DIR$/api-gatway" />
             <option value="$PROJECT_DIR$/dicovery-server" />
+            <option value="$PROJECT_DIR$/notification-service" />
           </set>
         </option>
       </GradleProjectSettings>

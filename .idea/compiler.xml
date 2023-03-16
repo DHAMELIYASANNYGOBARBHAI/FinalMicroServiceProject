@@ -9,6 +9,7 @@
         </processorPath>
         <module name="FinalMicroServiceProject.Product-Service.main" />
         <module name="FinalMicroServiceProject.api-gatway.main" />
+        <module name="FinalMicroServiceProject.notification-service.main" />
         <module name="FinalMicroServiceProject.Order-Service.main" />
         <module name="FinalMicroServiceProject.dicovery-server.main" />
         <module name="FinalMicroServiceProject.Inventory-Service.main" />
